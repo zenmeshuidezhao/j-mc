@@ -19,7 +19,7 @@ export default {
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'),
-        //biomeDebug: path.resolve(__dirname, 'biome-debug.html'),
+        biomeDebug: path.resolve(__dirname, 'biome-debug.html'),
       },
     },
   },
