@@ -1,4 +1,3 @@
-import { max } from 'three/tsl';
 import { DEFAULT_BLACKLIST } from './debug-config'; 
 
 function generateId() {
