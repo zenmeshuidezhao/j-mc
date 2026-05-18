@@ -18,3 +18,47 @@ export const ACHIEVEMENTS = [
     { id: "who_am_i", iconPath: "/img/achievement/who_am_i.png" },
     { id: "first_rear_view", iconPath: "/img/achievement/look_back.png" },
 ];
+
+export const useAchievementStore = defineStore("achievement", {
+    state: () => ({
+        unlocked: {},
+        activeToasts: [],
+    }),
+    actions: {
+        unlock(id) {
+            const achievement = ACHIEVEMENTS.find(a => a.id === id);
+
+            if (!this.unlocked[id]) {
+                this.unlocked[id] = Date.now();
+                this.showToast(achievement);
+                
+            }
+        },
+        showToast(achievement) {
+            const instanceid = Date.now() + Math.random();
+            const toast = { ...achievement, instanceid };
+            this.activeToasts.push(toast);
+
+            setTimeout(() => {
+                this.activeToasts = this.activeToasts.filter(t => t.instanceid !== instanceid);
+            }, 5000);
+
+            if (this.isAllUnlocked) {
+                setTimeout(() => {
+                    window.dispatchEvent(new CustomEvent("achievement:all_unlocked"));
+                }, 5500);
+            }
+        },
+        reset() {
+            this.unlocked = {};
+            this.activeToasts = [];
+        },
+        getters: {
+            isAllUnlocked: state => {
+                return Object.keys(state.unlocked).length === ACHIEVEMENTS.length;
+            }
+
+        }
+    }
+});
+
