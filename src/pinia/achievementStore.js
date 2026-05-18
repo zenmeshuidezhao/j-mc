@@ -1,0 +1,20 @@
+import { defineStore } from 'pinia';
+
+export const ACHIEVEMENTS = [
+    { id: "first_world", iconPath: "/img/achievement/first_world.png" },
+    { id: "first_punch", iconPath: "/img/achievement/first_punch.png" },
+    { id: "first_run", iconPath: "/img/achievement/first_run.png" },
+    { id: "first_jump", iconPath: "/img/achievement/first_jump.png" },
+    { id: "first_zoom", iconPath: "/img/achievement/first_zoom.png" },
+    { id: "first_perspective", iconPath: "/img/achievement/first_perspective.png" },
+    { id: "first_chat", iconPath: "/img/achievement/first_chat.png" },
+    { id: "first_mine", iconPath: "/img/achievement/first_mine.png" },
+    { id: "first_place", iconPath: "/img/achievement/first_place.png" },
+    { id: "first_damage_enemy", iconPath: "/img/achievement/first_damage_enemy.png" },
+    { id: "first_hurt", iconPath: "/img/achievement/first_hurt.png" },
+    { id: "play_5_mins", iconPath: "/img/achievement/play_5_mins.png" },
+    { id: "hiker", iconPath: "/img/achievement/hiker.png" },
+    { id: "rage_quit", iconPath: "/img/achievement/rage_quit.png" },
+    { id: "who_am_i", iconPath: "/img/achievement/who_am_i.png" },
+    { id: "first_rear_view", iconPath: "/img/achievement/look_back.png" },
+];
