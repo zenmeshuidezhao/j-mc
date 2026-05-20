@@ -1,5 +1,5 @@
  import mitt from "mitt";
- import debugStateMonitor from "../debug-state-monitor.js";
+ import debugStateMonitor from "../debug/debug-state-monitor.js";
 import { callWithErrorHandling } from "vue";
 import { debug } from "three/tsl";
 

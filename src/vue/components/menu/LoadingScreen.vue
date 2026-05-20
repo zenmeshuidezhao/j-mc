@@ -33,4 +33,11 @@ function handleProgress({ loaded, total}) {
 </script>
 
 <style scoped>
+.loading-screen { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
 </style>
