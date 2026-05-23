@@ -1,3 +1,5 @@
-import debugEmitter from "./debug-emitter.js"
+import mitt from 'mitt';
 
-export default debugEmitter
+const emitter = mitt();
+
+export default emitter;
