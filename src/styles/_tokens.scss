@@ -1,4 +1,5 @@
-// src/styles/_tokens.scss
+@charset "UTF-8";
+
 // 引入 Minecraftia 字体
 @font-face {
   font-family: 'Minecraftia';
@@ -8,17 +9,13 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'MinecraftV2';
-  src: url('/fonts/MinecraftV2.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+* {
+  font-family: 'Minecraftia', sans-serif;
 }
 
 :root {
-  --primary: #262626;
-  --secondary: #171717;
-  --accent: #2563eb;
-  --text: #f3f3f3;
+  --mc-ui-scale: 1.2;
+  --mc-btn-height: calc(40px * var(--mc-ui-scale));
+  --mc-btn-width: min(calc(400px * var(--mc-ui-scale)), 92vw);
+  --mc-btn-gap: calc(8px * var(--mc-ui-scale));
 }

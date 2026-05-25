@@ -1,6 +1,6 @@
-<!-- src/App.vue -->
 <script setup>
 import Experience from './js/experience.js'
+import UiRoot from './vue/components/menu/UiRoot.vue'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const canvas = ref(null)
@@ -18,7 +18,11 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="relative w-screen h-screen overflow-hidden">
+    <!-- Three.js Canvas -->
     <canvas ref="canvas" class="absolute inset-0 z-0" />
+
+    <!-- Menu System -->
+    <UiRoot />
   </div>
 </template>
 
