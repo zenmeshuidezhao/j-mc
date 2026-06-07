@@ -1,0 +1,180 @@
+{
+  "menu": {
+    "title": "Minecraft",
+    "createWorld": "Create World",
+    "newWorld": "New World",
+    "continue": "Continue",
+    "settings": "Settings",
+    "howToPlay": "How to Play",
+    "selectSkin": "Select Skin",
+    "skins": "Skins",
+    "paused": "Game Paused",
+    "resume": "Resume",
+    "mainMenu": "Main Menu",
+    "credits": "Credits",
+    "back": "Back",
+    "randomSeed": "Random Seed",
+    "create": "Create",
+    "seedPlaceholder": "Enter a seed number",
+    "seedLabel": "World Seed",
+    "seedRequired": "Seed is required",
+    "advanced": "Advanced",
+    "worldType": "World Type",
+    "warningOverwrite": "Creating a new world will overwrite your current world.",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "settings": {
+    "title": "Settings",
+    "camera": "Camera",
+    "world": "World",
+    "visual": "Visual Effects",
+    "environment": "Environment",
+    "graphics": "Graphics",
+    "controls": "Controls",
+    "reset": "Reset Defaults",
+    "done": "Done",
+    "cameraStyle": "Camera Style",
+    "viewDistance": "View Distance",
+    "unloadPadding": "Unload Padding",
+    "speedLines": "Speed Lines",
+    "frontView": "Front View Preview",
+    "sky": "Sky",
+    "sun": "Sun",
+    "ambient": "Ambient",
+    "fog": "Fog",
+    "shadowQuality": "Shadow Quality",
+    "sensitivity": "Mouse Sensitivity"
+  },
+  "howto": {
+    "title": "How to Play",
+    "controls": "Controls",
+    "prev": "Back",
+    "next": "Next",
+    "done": "Done",
+    "mainMenu": "Main Menu",
+    "pages": {
+      "movement_camera": {
+        "title": "Move & Camera",
+        "body": {
+          "0": "Move with WASD or Arrow Keys.",
+          "1": "Hold Shift to sprint.",
+          "2": "Hold V to sneak for control.",
+          "3": "Press Q or E to switch camera shoulder (left/right).",
+          "4": "Hold Tab for telescope zoom. Press ~ to look back."
+        },
+        "keybinds": {
+          "0": { "action": "Move", "key": "W/A/S/D (or Arrow Keys)" },
+          "1": { "action": "Jump", "key": "Space" },
+          "2": { "action": "Sprint", "key": "Shift" },
+          "3": { "action": "Sneak", "key": "V" },
+          "4": { "action": "Camera Left", "key": "Q" },
+          "5": { "action": "Camera Right", "key": "E" },
+          "6": { "action": "Telescope", "key": "Tab" },
+          "7": { "action": "Look Back", "key": "~" }
+        }
+      },
+      "combat": {
+        "title": "Combat Basics",
+        "body": {
+          "0": "Press Z for a light attack (combo).",
+          "1": "Press X for a heavy attack.",
+          "2": "Hold C to block and time your defense."
+        },
+        "keybinds": {
+          "0": { "action": "Light Attack", "key": "Z" },
+          "1": { "action": "Heavy Attack", "key": "X" },
+          "2": { "action": "Block", "key": "C" }
+        }
+      },
+      "build_edit": {
+        "title": "Build / Edit",
+        "body": {
+          "0": "Left click to mine or break blocks.",
+          "1": "Right click to place blocks.",
+          "2": "Same as vanilla Minecraft."
+        },
+        "keybinds": {
+          "0": { "action": "Mine / Break", "key": "Mouse Left" },
+          "1": { "action": "Place", "key": "Mouse Right" }
+        }
+      },
+      "achievements": {
+        "title": "Achievements & Progress",
+        "body": {
+          "0": "Complete actions to unlock achievements.",
+          "1": "View your progress in the Achievements menu from Main Menu or Pause Menu.",
+          "2": "Achievements reset when you create a new world."
+        },
+        "keybinds": {
+          "0": { "action": "Open Menu", "key": "Esc" },
+          "1": { "action": "Achievements (in menu)", "key": "Main Menu / Pause" }
+        }
+      },
+      "tips_ui": {
+        "title": "Tips & UI",
+        "body": {
+          "0": "Stay calm: move, hit, reset.",
+          "1": "Sprint to reposition and commit when it's safe.",
+          "2": "Sneak (V) for tighter control when you need it.",
+          "3": "Press Esc anytime to return to the menu.",
+          "4": "Press R to respawn if stuck.",
+          "5": "Settings can adjust view distance."
+        },
+        "keybinds": {
+          "0": { "action": "Open Menu", "key": "Esc" },
+          "1": { "action": "Respawn", "key": "R" }
+        }
+      }
+    }
+  },
+  "skin": {
+    "steve": "Steve",
+    "alex": "Alex",
+    "player": "Classic",
+    "equipped": "Equipped",
+    "credits": "Special thanks to skin creators:"
+  },
+  "anim": {
+    "idle": "Idle",
+    "walk": "Walk",
+    "run": "Run",
+    "tpose": "T-Pose",
+    "mine": "Mine",
+    "jump": "Jump",
+    "attack": "Attack",
+    "block": "Block"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "apply": "Apply"
+  },
+  "ui": {
+    "achievement": {
+      "first_world": { "title": "Welcome to New World", "desc": "Created your first world." },
+      "first_punch": { "title": "First Strike", "desc": "Punched for the first time." },
+      "first_run": { "title": "Feel the Wind", "desc": "Ran for the first time." },
+      "first_jump": { "title": "Taking Off", "desc": "Jumped for the first time." },
+      "first_zoom": { "title": "Looking Closely", "desc": "Zoomed in using telescope." },
+      "first_perspective": { "title": "New Perspective", "desc": "Changed camera perspective." },
+      "first_chat": { "title": "Hello World", "desc": "Opened the chat for the first time." },
+      "first_mine": { "title": "Resource Gathering", "desc": "Mined your first block." },
+      "first_place": { "title": "Building Block", "desc": "Placed your first block." },
+      "first_damage_enemy": { "title": "Monster Hunter", "desc": "Damaged an enemy." },
+      "first_hurt": { "title": "Ouch!", "desc": "Took damage for the first time." },
+      "play_5_mins": { "title": "Getting into it", "desc": "Played for 5 minutes." },
+      "hiker": { "title": "Hiker", "desc": "Explore far from the spawn point." },
+      "rage_quit": { "title": "Inept", "desc": "Punch the air continuously." },
+      "who_am_i": { "title": "Who Am I, Where Am I", "desc": "Rapidly switch camera perspectives." },
+      "first_rear_view": { "title": "Look Back", "desc": "Press ~ to look back for the first time." },
+      "menuTitle": "Achievements",
+      "unlocked": "Unlocked",
+      "locked": "Locked",
+      "suggestion": {
+        "title": "Achievement Get: Nostalgic Childhood!",
+        "desc_prefix": "It's time to open the real ",
+        "desc_suffix": "!"
+      }
+    }
+  }
+}

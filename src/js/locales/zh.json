@@ -1,0 +1,180 @@
+{
+  "menu": {
+    "title": "我的世界",
+    "createWorld": "创建世界",
+    "newWorld": "新世界",
+    "continue": "继续游戏",
+    "settings": "设置",
+    "howToPlay": "玩法说明",
+    "selectSkin": "选择皮肤",
+    "skins": "皮肤",
+    "paused": "游戏暂停",
+    "resume": "继续游戏",
+    "mainMenu": "主菜单",
+    "credits": "制作人员",
+    "back": "返回",
+    "randomSeed": "随机种子",
+    "create": "创建",
+    "seedPlaceholder": "请输入种子数字",
+    "seedLabel": "世界种子",
+    "seedRequired": "种子不能为空",
+    "advanced": "高级选项",
+    "worldType": "世界类型",
+    "warningOverwrite": "创建新世界将覆盖当前世界存档。",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "settings": {
+    "title": "游戏设置",
+    "camera": "相机设置",
+    "world": "世界设置",
+    "visual": "视觉特效",
+    "environment": "环境设置",
+    "graphics": "图形设置",
+    "controls": "操作设置",
+    "reset": "恢复默认",
+    "done": "完成",
+    "cameraStyle": "相机风格",
+    "viewDistance": "视距",
+    "unloadPadding": "卸载缓冲",
+    "speedLines": "速度线",
+    "frontView": "角色预览",
+    "sky": "天空",
+    "sun": "阳光强度",
+    "ambient": "环境光",
+    "fog": "雾气浓度",
+    "shadowQuality": "阴影质量",
+    "sensitivity": "鼠标灵敏度"
+  },
+  "howto": {
+    "title": "玩法说明",
+    "controls": "操作键位",
+    "prev": "上一步",
+    "next": "下一步",
+    "done": "完成",
+    "mainMenu": "主菜单",
+    "pages": {
+      "movement_camera": {
+        "title": "移动与视角",
+        "body": {
+          "0": "使用 WASD 或方向键移动。",
+          "1": "按住 Shift 冲刺。",
+          "2": "按住 V 潜行以获得更精准的控制。",
+          "3": "按 Q 或 E 切换左肩/右肩视角。",
+          "4": "按住 Tab 使用望远镜缩放。按 ~ 回头看。"
+        },
+        "keybinds": {
+          "0": { "action": "移动", "key": "W/A/S/D（或方向键）" },
+          "1": { "action": "跳跃", "key": "Space" },
+          "2": { "action": "冲刺", "key": "Shift" },
+          "3": { "action": "潜行", "key": "V" },
+          "4": { "action": "左肩视角", "key": "Q" },
+          "5": { "action": "右肩视角", "key": "E" },
+          "6": { "action": "望远镜", "key": "Tab" },
+          "7": { "action": "回头看", "key": "~" }
+        }
+      },
+      "combat": {
+        "title": "战斗基础",
+        "body": {
+          "0": "按 Z 轻攻击（可连击）。",
+          "1": "按 X 重攻击。",
+          "2": "按住 C 格挡并把握防御时机。"
+        },
+        "keybinds": {
+          "0": { "action": "轻攻击", "key": "Z" },
+          "1": { "action": "重攻击", "key": "X" },
+          "2": { "action": "格挡", "key": "C" }
+        }
+      },
+      "build_edit": {
+        "title": "建造与编辑",
+        "body": {
+          "0": "左键挖掘或破坏方块。",
+          "1": "右键放置方块。",
+          "2": "与原版 Minecraft 相同。"
+        },
+        "keybinds": {
+          "0": { "action": "挖掘/破坏", "key": "鼠标左键" },
+          "1": { "action": "放置", "key": "鼠标右键" }
+        }
+      },
+      "achievements": {
+        "title": "成就与进度",
+        "body": {
+          "0": "完成操作以解锁成就。",
+          "1": "在主菜单或暂停菜单中查看成就进度。",
+          "2": "创建新世界时成就将重置。"
+        },
+        "keybinds": {
+          "0": { "action": "打开菜单", "key": "Esc" },
+          "1": { "action": "成就（在菜单中）", "key": "主菜单 / 暂停" }
+        }
+      },
+      "tips_ui": {
+        "title": "技巧与界面",
+        "body": {
+          "0": "保持冷静：移动、攻击、重置。",
+          "1": "冲刺调整位置，安全时再出手。",
+          "2": "需要精准控制时使用潜行 (V)。",
+          "3": "随时按 Esc 返回菜单。",
+          "4": "卡住时按 R 重生。",
+          "5": "可在设置中调整视距。"
+        },
+        "keybinds": {
+          "0": { "action": "打开菜单", "key": "Esc" },
+          "1": { "action": "重生", "key": "R" }
+        }
+      }
+    }
+  },
+  "skin": {
+    "steve": "史蒂夫",
+    "alex": "艾莉克斯",
+    "player": "经典角色",
+    "equipped": "已装备",
+    "credits": "特别感谢皮肤作者："
+  },
+  "anim": {
+    "idle": "待机",
+    "walk": "行走",
+    "run": "奔跑",
+    "tpose": "T型姿势",
+    "mine": "挖掘",
+    "jump": "跳跃",
+    "attack": "攻击",
+    "block": "格挡"
+  },
+  "common": {
+    "cancel": "取消",
+    "apply": "应用"
+  },
+  "ui": {
+    "achievement": {
+      "first_world": { "title": "欢迎来到新世界", "desc": "第一次创建世界" },
+      "first_punch": { "title": "初试风采", "desc": "第一次挥拳" },
+      "first_run": { "title": "感受风的速度", "desc": "第一次奔跑" },
+      "first_jump": { "title": "一跃而起", "desc": "第一次跳跃" },
+      "first_zoom": { "title": "观察入微", "desc": "使用望远镜放大" },
+      "first_perspective": { "title": "换个角度", "desc": "切换摄像机视角" },
+      "first_chat": { "title": "尝试沟通", "desc": "第一次打开聊天框" },
+      "first_mine": { "title": "第一手资源", "desc": "第一次破坏方块" },
+      "first_place": { "title": "添砖加瓦", "desc": "第一次放置方块" },
+      "first_damage_enemy": { "title": "初试锋芒", "desc": "第一次攻击敌人" },
+      "first_hurt": { "title": "哎呦！", "desc": "第一次受到伤害" },
+      "play_5_mins": { "title": "渐入佳境", "desc": "游玩时间超过 5 分钟" },
+      "hiker": { "title": "徒步旅行者", "desc": "探索远离出生点的区域" },
+      "rage_quit": { "title": "无能狂怒", "desc": "连续多次挥拳打空气" },
+      "who_am_i": { "title": "我是谁我在那", "desc": "短时间内快速切换视角" },
+      "first_rear_view": { "title": "回头看", "desc": "首次按~键回头看" },
+      "menuTitle": "成就系统",
+      "unlocked": "已解锁",
+      "locked": "未解锁",
+      "suggestion": {
+        "title": "成就获得：怀念童年！",
+        "desc_prefix": "是时候打开真正的 ",
+        "desc_suffix": " 了！"
+      }
+    }
+  }
+}
